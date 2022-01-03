@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641244141138
+    "lastModifiedOn": 1641244194443
   },
   "creationTag": {
     "versionNumber": 0,
@@ -58,7 +58,123 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "id",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "emp_title",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "emp_length",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "home_ownership",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "annual_inc",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "verification_status",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "addr_state",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "mort_acc",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "id_1",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "dti",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "delinq_2yrs",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "earliest_cr_line",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "fico_range_low",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "fico_range_high",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "inq_last_6mths",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "mths_since_last_delinq",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "open_acc",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "pub_rec",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "acc_now_delinq",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "all_util",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "inq_last_12m",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "chargeoff_within_12_mths",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "num_accts_ever_120_pd",
+        "type": "string",
+        "originalType": "text"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
