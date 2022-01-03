@@ -140,10 +140,11 @@
       "type": "ColumnsSelector",
       "params": {
         "columns": [
+          "title",
           "int_rate"
         ],
         "keep": false,
-        "appliesTo": "SINGLE_COLUMN"
+        "appliesTo": "COLUMNS"
       },
       "alwaysShowComment": false
     }
