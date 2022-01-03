@@ -74,6 +74,78 @@
         "appliesTo": "COLUMNS"
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "(fico_range_low + fico_range_high)/2\n",
+        "column": "fico"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "fico_range_high",
+          "fico_range_low"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "designTimeReport": {
+        "report": {
+          "createdColumnCount": 1
+        }
+      },
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnSplitter",
+      "params": {
+        "inCol": "int_rate",
+        "keepEmptyChunks": false,
+        "limit": 0,
+        "separator": "%",
+        "outColPrefix": "int_rate_",
+        "limitOutput": false,
+        "target": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "if(int_rate_0\u003e10,1,0)",
+        "column": "high_int"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "int_rate"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
@@ -103,6 +175,8 @@
   "analysisColumnData": {},
   "columnWidthsByName": {
     "chargeoff_within_12_mths": 195,
+    "fico": 100,
+    "high_int": 100,
     "purpose": 141,
     "fico_range_high": 128,
     "inq_last_6mths": 120,
@@ -127,6 +201,7 @@
     "inq": 100,
     "addr_state": 100,
     "fico_range_low": 120,
+    "int_rate_0": 100,
     "earliest_cr_line": 135,
     "loan_amnt": 100,
     "open_acc": 100,
