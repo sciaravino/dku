@@ -1,0 +1,245 @@
+{
+  "type": "PostgreSQL",
+  "managed": true,
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1641248814751
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1641248814751
+  },
+  "tags": [],
+  "params": {
+    "writeWithCopyBadDataBehavior": "NOVERIFY_ERROR",
+    "connection": "PG",
+    "notReadyIfEmpty": false,
+    "mode": "table",
+    "partitioningType": "custom",
+    "normalizeDoubles": true,
+    "table": "${projectKey}_scoring_prepared",
+    "schema": "dku",
+    "tableCreationMode": "auto",
+    "writeInsertBatchSize": 10000,
+    "writeJDBCBadDataBehavior": "DISCARD_ROW",
+    "readColsWithUnknownTzAsDates": false,
+    "readSQLDateColsAsDSSDates": true
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "id",
+        "type": "bigint"
+      },
+      {
+        "name": "emp_title",
+        "type": "string"
+      },
+      {
+        "name": "emp_length",
+        "type": "string"
+      },
+      {
+        "name": "home_ownership",
+        "type": "string"
+      },
+      {
+        "name": "annual_inc",
+        "type": "double"
+      },
+      {
+        "name": "verification_status",
+        "type": "string"
+      },
+      {
+        "name": "addr_state",
+        "type": "string"
+      },
+      {
+        "name": "dti",
+        "type": "double"
+      },
+      {
+        "name": "delinq_2yrs",
+        "type": "bigint"
+      },
+      {
+        "name": "earliest_cr_line",
+        "type": "string"
+      },
+      {
+        "name": "fico",
+        "type": "double"
+      },
+      {
+        "name": "inq_last_6mths",
+        "type": "bigint"
+      },
+      {
+        "name": "open_acc",
+        "type": "bigint"
+      },
+      {
+        "name": "pub_rec",
+        "type": "bigint"
+      },
+      {
+        "name": "acc_now_delinq",
+        "type": "bigint"
+      },
+      {
+        "name": "all_util",
+        "type": "bigint"
+      },
+      {
+        "name": "inq_last_12m",
+        "type": "bigint"
+      },
+      {
+        "name": "chargeoff_within_12_mths",
+        "type": "bigint"
+      },
+      {
+        "name": "num_accts_ever_120_pd",
+        "type": "bigint"
+      },
+      {
+        "name": "loan_amnt",
+        "type": "bigint"
+      },
+      {
+        "name": "term",
+        "type": "string"
+      },
+      {
+        "name": "int_rate_0",
+        "type": "double"
+      },
+      {
+        "name": "high_int",
+        "type": "bigint"
+      },
+      {
+        "name": "purpose",
+        "type": "string"
+      },
+      {
+        "name": "Default",
+        "type": "bigint"
+      }
+    ],
+    "userModified": true
+  },
+  "dkuProperties": [],
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}
