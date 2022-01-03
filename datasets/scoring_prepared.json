@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641248814751
+    "lastModifiedOn": 1641248820261
   },
   "creationTag": {
     "versionNumber": 0,
@@ -64,6 +64,22 @@
         "type": "bigint"
       },
       {
+        "name": "loan_amnt",
+        "type": "bigint"
+      },
+      {
+        "name": "term",
+        "type": "string"
+      },
+      {
+        "name": "int_rate_0",
+        "type": "double"
+      },
+      {
+        "name": "high_int",
+        "type": "bigint"
+      },
+      {
         "name": "emp_title",
         "type": "string"
       },
@@ -81,6 +97,10 @@
       },
       {
         "name": "verification_status",
+        "type": "string"
+      },
+      {
+        "name": "purpose",
         "type": "string"
       },
       {
@@ -134,26 +154,6 @@
       {
         "name": "num_accts_ever_120_pd",
         "type": "bigint"
-      },
-      {
-        "name": "loan_amnt",
-        "type": "bigint"
-      },
-      {
-        "name": "term",
-        "type": "string"
-      },
-      {
-        "name": "int_rate_0",
-        "type": "double"
-      },
-      {
-        "name": "high_int",
-        "type": "bigint"
-      },
-      {
-        "name": "purpose",
-        "type": "string"
       },
       {
         "name": "Default",
