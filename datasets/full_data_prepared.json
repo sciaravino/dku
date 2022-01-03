@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641245624145
+    "lastModifiedOn": 1641246372169
   },
   "creationTag": {
     "versionNumber": 0,
@@ -88,10 +88,6 @@
         "type": "string"
       },
       {
-        "name": "mort_acc",
-        "type": "bigint"
-      },
-      {
         "name": "dti",
         "type": "double"
       },
@@ -113,10 +109,6 @@
       },
       {
         "name": "inq_last_6mths",
-        "type": "bigint"
-      },
-      {
-        "name": "mths_since_last_delinq",
         "type": "bigint"
       },
       {
