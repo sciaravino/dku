@@ -127,6 +127,7 @@
   },
   "name": "LEND",
   "projectStatus": "Sandbox",
+  "imgPattern": 8,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -181,6 +182,13 @@
       "checks": []
     }
   },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1641239651470
+  },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
@@ -188,6 +196,7 @@
     },
     "lastModifiedOn": 1641239616643
   },
+  "description": "Lending Club project to predict applicant default",
   "shortDesc": "The project *LEND* was created by Administrator on Jan 03rd 2022",
   "tags": [],
   "customFields": {},
