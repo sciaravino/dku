@@ -44,7 +44,7 @@
     "sorting": [
       {
         "column": "proba_0",
-        "ascending": true
+        "ascending": false
       }
     ],
     "analysisColumnData": {},
