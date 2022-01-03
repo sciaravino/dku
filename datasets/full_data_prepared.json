@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641246372169
+    "lastModifiedOn": 1641247004513
   },
   "creationTag": {
     "versionNumber": 0,
@@ -100,12 +100,8 @@
         "type": "string"
       },
       {
-        "name": "fico_range_low",
-        "type": "bigint"
-      },
-      {
-        "name": "fico_range_high",
-        "type": "bigint"
+        "name": "fico",
+        "type": "double"
       },
       {
         "name": "inq_last_6mths",
@@ -148,8 +144,12 @@
         "type": "string"
       },
       {
-        "name": "int_rate",
-        "type": "string"
+        "name": "int_rate_0",
+        "type": "double"
+      },
+      {
+        "name": "high_int",
+        "type": "bigint"
       },
       {
         "name": "purpose",
