@@ -744,10 +744,10 @@
     },
     "feature_generation": {
       "pairwise_linear": {
-        "behavior": "DISABLED"
+        "behavior": "ENABLED_MANUAL"
       },
       "polynomial_combinations": {
-        "behavior": "DISABLED"
+        "behavior": "ENABLED_MANUAL"
       },
       "manual_interactions": {
         "interactions": []
