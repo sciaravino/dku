@@ -30,7 +30,7 @@
               "verification_status": "Not Verified",
               "purpose": "debt_consolidation",
               "addr_state": "MO",
-              "dti": 20.31,
+              "dti": 40.31,
               "delinq_2yrs": 0,
               "earliest_cr_line_parsed": "2007-01-01T00:00:00.000Z",
               "credit_history_yrs": 15,
@@ -60,11 +60,11 @@
     "queryKeys": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641309292457
+    "lastModifiedOn": 1641309310047
   },
   "creationTag": {
     "versionNumber": 0,
