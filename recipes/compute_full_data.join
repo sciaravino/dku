@@ -4,6 +4,7 @@
       "table2": 1,
       "table1": 0,
       "conditionsMode": "AND",
+      "rightLimit": {},
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
       "on": [
@@ -154,6 +155,11 @@
       "table": 1
     },
     {
+      "name": "grade",
+      "type": "string",
+      "table": 1
+    },
+    {
       "name": "purpose",
       "type": "string",
       "table": 1
@@ -216,14 +222,7 @@
       "computedColumns": []
     },
     {
-      "preFilter": {
-        "distinct": false,
-        "enabled": false
-      },
-      "autoSelectColumns": false,
-      "originLabel": "Lending_Club_loan",
-      "index": 1,
-      "computedColumns": []
+      "index": 1
     }
   ],
   "computedColumns": [],
@@ -329,6 +328,10 @@
           },
           {
             "name": "int_rate",
+            "type": "string"
+          },
+          {
+            "name": "grade",
             "type": "string"
           },
           {
