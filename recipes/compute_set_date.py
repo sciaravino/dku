@@ -7,7 +7,7 @@ from dataiku import pandasutils as pdu
 full_data = dataiku.Dataset("full_data")
 full_data_df = full_data.get_dataframe()
 
-#df['b'] = df['b'] + 10
+#add the start of the month so date can be parsed in future preparation and feature engineering
 full_data_df['earliest_cr_line'] = full_data_df['earliest_cr_line'] + '-01'
 full_data_df.head()
 
