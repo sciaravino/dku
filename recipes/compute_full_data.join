@@ -155,11 +155,6 @@
       "table": 1
     },
     {
-      "name": "grade",
-      "type": "string",
-      "table": 1
-    },
-    {
       "name": "purpose",
       "type": "string",
       "table": 1
@@ -328,10 +323,6 @@
           },
           {
             "name": "int_rate",
-            "type": "string"
-          },
-          {
-            "name": "grade",
             "type": "string"
           },
           {
