@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641305743030
+    "lastModifiedOn": 1641307058520
   },
   "creationTag": {
     "versionNumber": 0,
@@ -157,10 +157,6 @@
       },
       {
         "name": "int_rate",
-        "type": "string"
-      },
-      {
-        "name": "grade",
         "type": "string"
       },
       {
