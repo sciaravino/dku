@@ -147,6 +147,39 @@
         "appliesTo": "COLUMNS"
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "DateParser",
+      "params": {
+        "outCol": "earliest_cr_line_parsed",
+        "formats": [
+          "MMM-yyyy-DD"
+        ],
+        "columns": [
+          "earliest_cr_line"
+        ],
+        "timezone_id": "UTC",
+        "appliesTo": "SINGLE_COLUMN",
+        "lang": "auto"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "DateDifference",
+      "params": {
+        "output": "credit_history_yrs",
+        "outputUnit": "YEARS",
+        "input1": "earliest_cr_line_parsed",
+        "compareTo": "NOW",
+        "reverse": false
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
@@ -178,6 +211,7 @@
     "chargeoff_within_12_mths": 195,
     "fico": 100,
     "high_int": 100,
+    "since_earliest_cr_line_parsed_days": 270,
     "purpose": 141,
     "fico_range_high": 128,
     "inq_last_6mths": 120,
@@ -193,8 +227,11 @@
     "id": 100,
     "int_rate": 100,
     "mths_since_last_delinq": 180,
+    "credit_history_yrs": 150,
     "emp_length": 120,
     "annual_inc": 120,
+    "credit_history_years": 165,
+    "years of credit": 128,
     "emp_title": 204,
     "home_ownership": 120,
     "mort_acc": 100,
@@ -205,6 +242,7 @@
     "int_rate_0": 100,
     "earliest_cr_line": 135,
     "loan_amnt": 100,
+    "earliest_cr_line_parsed": 211,
     "open_acc": 100,
     "pub_rec": 100
   },
