@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641308217101
+    "lastModifiedOn": 1641308225206
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,7 +85,128 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "id",
+        "type": "bigint"
+      },
+      {
+        "name": "loan_amnt",
+        "type": "bigint"
+      },
+      {
+        "name": "term",
+        "type": "string"
+      },
+      {
+        "name": "int_rate_0",
+        "type": "double"
+      },
+      {
+        "name": "high_int",
+        "type": "bigint"
+      },
+      {
+        "name": "emp_title",
+        "type": "string"
+      },
+      {
+        "name": "emp_length",
+        "type": "string"
+      },
+      {
+        "name": "home_ownership",
+        "type": "string"
+      },
+      {
+        "name": "annual_inc",
+        "type": "double"
+      },
+      {
+        "name": "verification_status",
+        "type": "string"
+      },
+      {
+        "name": "purpose",
+        "type": "string"
+      },
+      {
+        "name": "addr_state",
+        "type": "string"
+      },
+      {
+        "name": "dti",
+        "type": "double"
+      },
+      {
+        "name": "delinq_2yrs",
+        "type": "bigint"
+      },
+      {
+        "name": "earliest_cr_line_parsed",
+        "type": "date"
+      },
+      {
+        "name": "credit_history_yrs",
+        "type": "bigint"
+      },
+      {
+        "name": "fico",
+        "type": "double"
+      },
+      {
+        "name": "inq_last_6mths",
+        "type": "bigint"
+      },
+      {
+        "name": "open_acc",
+        "type": "bigint"
+      },
+      {
+        "name": "pub_rec",
+        "type": "bigint"
+      },
+      {
+        "name": "acc_now_delinq",
+        "type": "bigint"
+      },
+      {
+        "name": "all_util",
+        "type": "double"
+      },
+      {
+        "name": "inq_last_12m",
+        "type": "double"
+      },
+      {
+        "name": "chargeoff_within_12_mths",
+        "type": "bigint"
+      },
+      {
+        "name": "num_accts_ever_120_pd",
+        "type": "double"
+      },
+      {
+        "name": "Default",
+        "type": "bigint"
+      },
+      {
+        "name": "proba_0",
+        "type": "double"
+      },
+      {
+        "name": "proba_1",
+        "type": "double"
+      },
+      {
+        "name": "prediction",
+        "type": "string"
+      },
+      {
+        "name": "prediction_correct",
+        "type": "boolean"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
