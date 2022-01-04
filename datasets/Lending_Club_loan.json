@@ -42,7 +42,7 @@
     "skipRowsBeforeHeader": 0,
     "parseHeaderRow": true,
     "skipRowsAfterHeader": 0,
-    "probableNumberOfRecords": 8,
+    "probableNumberOfRecords": 7,
     "normalizeBooleans": false,
     "normalizeDoubles": true,
     "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
@@ -62,14 +62,14 @@
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641305656927
+    "lastModifiedOn": 1641242834997
   },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641305656882
+    "lastModifiedOn": 1641242834954
   },
   "tags": [],
   "params": {
@@ -98,10 +98,6 @@
       },
       {
         "name": "int_rate",
-        "type": "string"
-      },
-      {
-        "name": "grade",
         "type": "string"
       },
       {
