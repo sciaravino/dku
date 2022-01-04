@@ -26,8 +26,26 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "Default"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -53,7 +71,34 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "high_int": 100,
+    "fico": 100,
+    "chargeoff_within_12_mths": 195,
+    "purpose": 141,
+    "inq_last_6mths": 120,
+    "acc_now_delinq": 120,
+    "num_accts_ever_120_pd": 173,
+    "verification_status": 183,
+    "inq_last_12m": 105,
+    "all_util": 100,
+    "dti": 100,
+    "delinq_2yrs": 100,
+    "term": 100,
+    "id": 100,
+    "credit_history_yrs": 150,
+    "emp_length": 120,
+    "annual_inc": 120,
+    "emp_title": 204,
+    "home_ownership": 120,
+    "Default": 100,
+    "addr_state": 100,
+    "int_rate_0": 100,
+    "loan_amnt": 100,
+    "earliest_cr_line_parsed": 211,
+    "open_acc": 100,
+    "pub_rec": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
