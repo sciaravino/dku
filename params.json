@@ -10,6 +10,15 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "evaluation",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
       }
     ]
   },
@@ -193,11 +202,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641311071912
+    "lastModifiedOn": 1641311130774
   },
   "creationTag": {
     "versionNumber": 0,
