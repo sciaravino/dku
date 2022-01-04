@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641306005973
+    "lastModifiedOn": 1641306226295
   },
   "creationTag": {
     "versionNumber": 0,
@@ -98,6 +98,14 @@
       {
         "name": "earliest_cr_line",
         "type": "string"
+      },
+      {
+        "name": "earliest_cr_line_parsed",
+        "type": "date"
+      },
+      {
+        "name": "credit_history_yrs",
+        "type": "bigint"
       },
       {
         "name": "fico",
