@@ -2,7 +2,12 @@
   "name": "snow",
   "color": "#8C2DA7",
   "items": [],
-  "shared": [],
+  "shared": [
+    {
+      "objectId": "scored_sample",
+      "objectType": "DATASET"
+    }
+  ],
   "tags": [],
   "customFields": {},
   "checklists": {
