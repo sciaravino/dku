@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641306226295
+    "lastModifiedOn": 1641306347637
   },
   "creationTag": {
     "versionNumber": 0,
@@ -129,11 +129,11 @@
       },
       {
         "name": "all_util",
-        "type": "bigint"
+        "type": "string"
       },
       {
         "name": "inq_last_12m",
-        "type": "bigint"
+        "type": "string"
       },
       {
         "name": "chargeoff_within_12_mths",
@@ -141,7 +141,7 @@
       },
       {
         "name": "num_accts_ever_120_pd",
-        "type": "bigint"
+        "type": "string"
       },
       {
         "name": "loan_amnt",
