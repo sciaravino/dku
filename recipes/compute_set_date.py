@@ -9,7 +9,7 @@ full_data_df = full_data.get_dataframe()
 
 #df['b'] = df['b'] + 10
 full_data_df['earliest_cr_line'] = full_data_df['earliest_cr_line'] + '-01'
-
+full_data_df.head()
 
 # Compute recipe outputs from inputs
 # TODO: Replace this part by your actual code that computes the output, as a Pandas dataframe
