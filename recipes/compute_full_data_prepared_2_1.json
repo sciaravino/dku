@@ -15,6 +15,9 @@
             },
             "set_date": {
               "repartition": 10
+            },
+            "score_date": {
+              "repartition": 10
             }
           }
         },
@@ -76,11 +79,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641307761150
+    "lastModifiedOn": 1641307765289
   },
   "creationTag": {
     "versionNumber": 0,
