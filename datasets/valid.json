@@ -25,19 +25,14 @@
   "partitioning": {
     "ignoreNonMatchingFile": false,
     "considerMissingRequestedPartitionsAsEmpty": false,
-    "dimensions": [
-      {
-        "name": "dimension_0",
-        "type": "value"
-      }
-    ]
+    "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641307908370
+    "lastModifiedOn": 1641307916312
   },
   "creationTag": {
     "versionNumber": 0,
@@ -54,7 +49,7 @@
     "mode": "table",
     "partitioningType": "custom",
     "normalizeDoubles": true,
-    "table": "${projectKey}_scoring",
+    "table": "${projectKey}_valid",
     "schema": "dku",
     "tableCreationMode": "auto",
     "writeInsertBatchSize": 10000,
@@ -191,16 +186,6 @@
         "meta": {
           "name": "Record count",
           "level": 0
-        },
-        "configuration": {}
-      },
-      {
-        "type": "partitioning",
-        "enabled": true,
-        "computeOnBuildMode": "WHOLE_DATASET",
-        "meta": {
-          "name": "Partitioning statistics",
-          "level": 1
         },
         "configuration": {}
       }
