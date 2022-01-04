@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641306715289
+    "lastModifiedOn": 1641307351360
   },
   "creationTag": {
     "versionNumber": 0,
@@ -154,10 +154,6 @@
       {
         "name": "high_int",
         "type": "bigint"
-      },
-      {
-        "name": "grade",
-        "type": "string"
       },
       {
         "name": "purpose",
