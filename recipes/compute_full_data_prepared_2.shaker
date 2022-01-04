@@ -168,7 +168,7 @@
       "alwaysShowComment": false
     },
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "DateDifference",
@@ -178,6 +178,57 @@
         "input1": "earliest_cr_line_parsed",
         "compareTo": "NOW",
         "reverse": false
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "B",
+            "to": "Prime"
+          },
+          {
+            "from": "A",
+            "to": "Prime"
+          },
+          {
+            "from": "C",
+            "to": "Subprime"
+          },
+          {
+            "from": "D",
+            "to": "Subprime"
+          },
+          {
+            "from": "E",
+            "to": "Subprime"
+          },
+          {
+            "from": "F",
+            "to": "Subprime"
+          },
+          {
+            "from": "G",
+            "to": "Subprime"
+          },
+          {
+            "from": "",
+            "to": ""
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "grade"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
       },
       "alwaysShowComment": false
     }
@@ -240,6 +291,7 @@
     "addr_state": 100,
     "fico_range_low": 120,
     "int_rate_0": 100,
+    "grade": 100,
     "earliest_cr_line": 135,
     "loan_amnt": 100,
     "earliest_cr_line_parsed": 211,
