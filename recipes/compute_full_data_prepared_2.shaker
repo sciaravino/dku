@@ -182,7 +182,7 @@
       "alwaysShowComment": false
     },
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "FindReplace",
@@ -231,6 +231,20 @@
         "matching": "FULL_STRING"
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "earliest_cr_line"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
@@ -272,12 +286,14 @@
     "title": 232,
     "inq_last_12m": 105,
     "all_util": 100,
+    "ear": 100,
     "dti": 100,
     "delinq_2yrs": 100,
     "term": 100,
     "id": 100,
     "int_rate": 100,
     "mths_since_last_delinq": 180,
+    "ea": 100,
     "credit_history_yrs": 150,
     "emp_length": 120,
     "annual_inc": 120,
