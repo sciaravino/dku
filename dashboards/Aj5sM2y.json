@@ -9,8 +9,8 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 5,
-              "height": 4
+              "width": 3,
+              "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -30,10 +30,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 4,
-              "left": 0,
-              "width": 10,
-              "height": 5
+              "top": 0,
+              "left": 3,
+              "width": 8,
+              "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {},
@@ -54,11 +54,11 @@
   "name": "LEND\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641311072764
+    "lastModifiedOn": 1641311111002
   },
   "creationTag": {
     "versionNumber": 0,
