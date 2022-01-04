@@ -1,4 +1,5 @@
 {
+  "name": "lend",
   "endpoints": [
     {
       "modelRef": "wr6l4wWm",
@@ -12,7 +13,40 @@
         "shapleyBackgroundSize": 100
       },
       "mlFlowOutputStyle": "RAW",
-      "testQueries": [],
+      "testQueries": [
+        {
+          "name": "scoring_prepared #1",
+          "q": {
+            "features": {
+              "id": 1069759,
+              "loan_amnt": 1000,
+              "term": "36 months",
+              "int_rate_0": 16.29,
+              "high_int": 1,
+              "emp_title": "Internal revenue Service",
+              "emp_length": "\u003c 1 year",
+              "home_ownership": "RENT",
+              "annual_inc": 28000,
+              "verification_status": "Not Verified",
+              "purpose": "debt_consolidation",
+              "addr_state": "MO",
+              "dti": 20.31,
+              "delinq_2yrs": 0,
+              "earliest_cr_line_parsed": "2007-01-01T00:00:00.000Z",
+              "credit_history_yrs": 15,
+              "fico": 667,
+              "inq_last_6mths": 1,
+              "open_acc": 11,
+              "pub_rec": 0,
+              "acc_now_delinq": 0,
+              "all_util": 55,
+              "inq_last_12m": 0,
+              "chargeoff_within_12_mths": 0,
+              "num_accts_ever_120_pd": 0
+            }
+          }
+        }
+      ],
       "enrichMapping": [],
       "healthCheckQueries": [],
       "returnPostEnrichData": false,
@@ -26,11 +60,11 @@
     "queryKeys": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641309269627
+    "lastModifiedOn": 1641309292457
   },
   "creationTag": {
     "versionNumber": 0,
