@@ -47,8 +47,8 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
+              "top": 3,
+              "left": 0,
               "width": 6,
               "height": 3
             },
@@ -78,11 +78,11 @@
   "name": "LEND\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641311159386
+    "lastModifiedOn": 1641311159967
   },
   "creationTag": {
     "versionNumber": 0,
