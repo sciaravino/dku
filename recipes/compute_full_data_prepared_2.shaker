@@ -182,57 +182,6 @@
       "alwaysShowComment": false
     },
     {
-      "preview": false,
-      "metaType": "PROCESSOR",
-      "disabled": false,
-      "type": "FindReplace",
-      "params": {
-        "output": "",
-        "mapping": [
-          {
-            "from": "B",
-            "to": "Prime"
-          },
-          {
-            "from": "A",
-            "to": "Prime"
-          },
-          {
-            "from": "C",
-            "to": "Subprime"
-          },
-          {
-            "from": "D",
-            "to": "Subprime"
-          },
-          {
-            "from": "E",
-            "to": "Subprime"
-          },
-          {
-            "from": "F",
-            "to": "Subprime"
-          },
-          {
-            "from": "G",
-            "to": "Subprime"
-          },
-          {
-            "from": "",
-            "to": ""
-          }
-        ],
-        "normalization": "EXACT",
-        "columns": [
-          "grade"
-        ],
-        "appliesTo": "SINGLE_COLUMN",
-        "stopAfterFirstMatch": false,
-        "matching": "FULL_STRING"
-      },
-      "alwaysShowComment": false
-    },
-    {
       "preview": true,
       "metaType": "PROCESSOR",
       "disabled": false,
