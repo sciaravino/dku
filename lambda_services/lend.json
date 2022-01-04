@@ -22,7 +22,7 @@
               "loan_amnt": 10000,
               "term": "36 months",
               "int_rate_0": 8.32,
-              "high_int": 1,
+              "high_int": 0,
               "emp_title": "Internal revenue Service",
               "emp_length": "\u003c 1 year",
               "home_ownership": "RENT",
@@ -65,11 +65,11 @@
     "queryKeys": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641309426213
+    "lastModifiedOn": 1641309454313
   },
   "creationTag": {
     "versionNumber": 0,
