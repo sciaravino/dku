@@ -8,7 +8,7 @@ full_data = dataiku.Dataset("full_data")
 full_data_df = full_data.get_dataframe()
 
 #df['b'] = df['b'] + 10
-full_data_df['earliest_cr_line'] = full_data_df['eariest_cr_line'] + '-01'
+full_data_df['earliest_cr_line'] = full_data_df['earliest_cr_line'] + '-01'
 
 
 # Compute recipe outputs from inputs
