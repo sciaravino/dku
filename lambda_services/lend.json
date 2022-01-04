@@ -19,7 +19,7 @@
           "q": {
             "features": {
               "id": 1069759,
-              "loan_amnt": 1000,
+              "loan_amnt": 10000,
               "term": "36 months",
               "int_rate_0": 8.32,
               "high_int": 1,
@@ -65,11 +65,11 @@
     "queryKeys": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641309411185
+    "lastModifiedOn": 1641309426213
   },
   "creationTag": {
     "versionNumber": 0,
