@@ -1,0 +1,108 @@
+{
+  "type": "eda",
+  "params": {
+    "card": {
+      "type": "correlation_matrix",
+      "heatmapParams": {
+        "showValues": true,
+        "showColors": true,
+        "showAbsValues": false,
+        "threshold": 0.0,
+        "filterVariablesWithoutValues": false
+      },
+      "metric": "SPEARMAN",
+      "columns": [
+        {
+          "name": "all_util",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "annual_inc",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "dti",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "loan_amnt",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "acc_now_delinq",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "chargeoff_within_12_mths",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "Default",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "mths_since_last_delinq",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "id",
+          "type": "CONTINUOUS"
+        },
+        {
+          "name": "delinq_2yrs",
+          "type": "CONTINUOUS"
+        }
+      ],
+      "id": "FREW8Si"
+    },
+    "dataSpec": {
+      "inputDatasetSmartName": "full_data",
+      "datasetSelection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 100000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": true,
+      "refreshTrigger": 0,
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      }
+    }
+  },
+  "owner": "admin",
+  "listed": true,
+  "name": "Correlation matrix on 10 variables  (Spearman)",
+  "dashboardCreationId": "Aj5sM2y",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1641311071968
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1641311071968
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
