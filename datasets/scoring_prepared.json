@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641308039078
+    "lastModifiedOn": 1641308049350
   },
   "creationTag": {
     "versionNumber": 0,
@@ -158,10 +158,6 @@
       {
         "name": "num_accts_ever_120_pd",
         "type": "double"
-      },
-      {
-        "name": "Default",
-        "type": "bigint"
       }
     ],
     "userModified": true
