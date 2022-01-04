@@ -1,7 +1,16 @@
 {
   "name": "snow",
   "color": "#8C2DA7",
-  "items": [],
+  "items": [
+    {
+      "objectId": "compute_scored_sample_flake",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "scored_sample_flake",
+      "objectType": "DATASET"
+    }
+  ],
   "shared": [
     {
       "objectId": "scored_sample",
