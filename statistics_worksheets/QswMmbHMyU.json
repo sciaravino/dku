@@ -29,16 +29,865 @@
     "type": "worksheet_root",
     "confidenceLevel": 0.95,
     "showConfidenceInterval": false,
-    "cards": [],
+    "cards": [
+      {
+        "type": "correlation_matrix",
+        "heatmapParams": {
+          "showValues": true,
+          "showColors": true,
+          "showAbsValues": false,
+          "threshold": 0.0,
+          "filterVariablesWithoutValues": false
+        },
+        "metric": "SPEARMAN",
+        "columns": [
+          {
+            "name": "all_util",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "annual_inc",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "dti",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "loan_amnt",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "acc_now_delinq",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "chargeoff_within_12_mths",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Default",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "mths_since_last_delinq",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "id",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "delinq_2yrs",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "id": "FREW8Si"
+      },
+      {
+        "type": "univariate_header",
+        "showHistogram": true,
+        "showQuantile": true,
+        "showFrequencyTable": true,
+        "showSummary": true,
+        "showBoxPlot": true,
+        "showCumulativeDistributionFunction": true,
+        "xColumns": [
+          {
+            "name": "Default",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "acc_now_delinq",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "all_util",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "annual_inc",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "chargeoff_within_12_mths",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "delinq_2yrs",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "dti",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "id",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "loan_amnt",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "mths_since_last_delinq",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "cards": [
+          {
+            "type": "column_card",
+            "column": {
+              "name": "Default",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "Default",
+                  "type": "CONTINUOUS"
+                },
+                "id": "1dA6YJR"
+              },
+              {
+                "type": "cdf_plot",
+                "column": {
+                  "name": "Default",
+                  "type": "CONTINUOUS"
+                },
+                "id": "enxKUfJ"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "Default",
+                  "type": "CONTINUOUS"
+                },
+                "id": "RigvlPV"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "Default",
+                  "type": "CONTINUOUS"
+                },
+                "id": "PTxMoF5"
+              }
+            ],
+            "id": "VOWAwLX"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "acc_now_delinq",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "acc_now_delinq",
+                  "type": "CONTINUOUS"
+                },
+                "id": "8x7Ku7W"
+              },
+              {
+                "type": "cdf_plot",
+                "column": {
+                  "name": "acc_now_delinq",
+                  "type": "CONTINUOUS"
+                },
+                "id": "UGegGpb"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "acc_now_delinq",
+                  "type": "CONTINUOUS"
+                },
+                "id": "L6rFKeO"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "acc_now_delinq",
+                  "type": "CONTINUOUS"
+                },
+                "id": "qVGLNK7"
+              }
+            ],
+            "id": "77sS9pB"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "all_util",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "all_util",
+                  "type": "CONTINUOUS"
+                },
+                "id": "wRNK5CR"
+              },
+              {
+                "type": "cdf_plot",
+                "column": {
+                  "name": "all_util",
+                  "type": "CONTINUOUS"
+                },
+                "id": "Vso3V4p"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "all_util",
+                  "type": "CONTINUOUS"
+                },
+                "id": "ZAmnpPQ"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "all_util",
+                  "type": "CONTINUOUS"
+                },
+                "id": "OC1Bw7M"
+              }
+            ],
+            "id": "i0wzR59"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "annual_inc",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "annual_inc",
+                  "type": "CONTINUOUS"
+                },
+                "id": "L4l7DwJ"
+              },
+              {
+                "type": "cdf_plot",
+                "column": {
+                  "name": "annual_inc",
+                  "type": "CONTINUOUS"
+                },
+                "id": "Ss45DTr"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "annual_inc",
+                  "type": "CONTINUOUS"
+                },
+                "id": "FTX4HLw"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "annual_inc",
+                  "type": "CONTINUOUS"
+                },
+                "id": "VwdxpQG"
+              }
+            ],
+            "id": "vPXaHo2"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "chargeoff_within_12_mths",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "chargeoff_within_12_mths",
+                  "type": "CONTINUOUS"
+                },
+                "id": "4tXH9w8"
+              },
+              {
+                "type": "cdf_plot",
+                "column": {
+                  "name": "chargeoff_within_12_mths",
+                  "type": "CONTINUOUS"
+                },
+                "id": "1H26T7b"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "chargeoff_within_12_mths",
+                  "type": "CONTINUOUS"
+                },
+                "id": "iBWxql5"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "chargeoff_within_12_mths",
+                  "type": "CONTINUOUS"
+                },
+                "id": "zZwirmS"
+              }
+            ],
+            "id": "AiF4XTZ"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "delinq_2yrs",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "delinq_2yrs",
+                  "type": "CONTINUOUS"
+                },
+                "id": "NolgvDR"
+              },
+              {
+                "type": "cdf_plot",
+                "column": {
+                  "name": "delinq_2yrs",
+                  "type": "CONTINUOUS"
+                },
+                "id": "gh8NjVt"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "delinq_2yrs",
+                  "type": "CONTINUOUS"
+                },
+                "id": "BT1YiIr"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "delinq_2yrs",
+                  "type": "CONTINUOUS"
+                },
+                "id": "neBAT7i"
+              }
+            ],
+            "id": "rsAQbJ8"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "dti",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "dti",
+                  "type": "CONTINUOUS"
+                },
+                "id": "3xVY5Ll"
+              },
+              {
+                "type": "cdf_plot",
+                "column": {
+                  "name": "dti",
+                  "type": "CONTINUOUS"
+                },
+                "id": "EqOxB6u"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "dti",
+                  "type": "CONTINUOUS"
+                },
+                "id": "rXraExC"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "dti",
+                  "type": "CONTINUOUS"
+                },
+                "id": "qPK7bFY"
+              }
+            ],
+            "id": "U1zuHBB"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "id",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "id",
+                  "type": "CONTINUOUS"
+                },
+                "id": "iLvV0B4"
+              },
+              {
+                "type": "cdf_plot",
+                "column": {
+                  "name": "id",
+                  "type": "CONTINUOUS"
+                },
+                "id": "JYVfTa9"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "id",
+                  "type": "CONTINUOUS"
+                },
+                "id": "ehdMFMN"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "id",
+                  "type": "CONTINUOUS"
+                },
+                "id": "Sq5x6aX"
+              }
+            ],
+            "id": "b0Ee54R"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "loan_amnt",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "loan_amnt",
+                  "type": "CONTINUOUS"
+                },
+                "id": "xB7Y2Gk"
+              },
+              {
+                "type": "cdf_plot",
+                "column": {
+                  "name": "loan_amnt",
+                  "type": "CONTINUOUS"
+                },
+                "id": "CFebe83"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "loan_amnt",
+                  "type": "CONTINUOUS"
+                },
+                "id": "3MkPnmx"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "loan_amnt",
+                  "type": "CONTINUOUS"
+                },
+                "id": "Bom7RbV"
+              }
+            ],
+            "id": "BT2IkCj"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "mths_since_last_delinq",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "mths_since_last_delinq",
+                  "type": "CONTINUOUS"
+                },
+                "id": "Ti7R2Yn"
+              },
+              {
+                "type": "cdf_plot",
+                "column": {
+                  "name": "mths_since_last_delinq",
+                  "type": "CONTINUOUS"
+                },
+                "id": "CSXp5tS"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "mths_since_last_delinq",
+                  "type": "CONTINUOUS"
+                },
+                "id": "3Pje7P3"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "mths_since_last_delinq",
+                  "type": "CONTINUOUS"
+                },
+                "id": "ZZoncfD"
+              }
+            ],
+            "id": "M0y4Sem"
+          }
+        ],
+        "id": "Pp1t40x"
+      }
+    ],
     "id": "BISCshu"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641308887143
+    "lastModifiedOn": 1641308922529
   },
   "creationTag": {
     "versionNumber": 0,
