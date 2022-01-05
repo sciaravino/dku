@@ -156,6 +156,7 @@
   "name": "LEND",
   "projectStatus": "Sandbox",
   "imgPattern": 8,
+  "showInitials": false,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -211,11 +212,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641311159339
+    "lastModifiedOn": 1641412563553
   },
   "creationTag": {
     "versionNumber": 0,
@@ -242,14 +243,14 @@
             "stateChangedOn": 0
           },
           {
-            "done": false,
+            "done": true,
             "text": "Set a project image (click on the color next to the project title)",
             "createdOn": 1641239616644,
             "createdBy": "admin",
             "stateChangedOn": 0
           },
           {
-            "done": false,
+            "done": true,
             "text": "Import your [first dataset](projects/LEND/datasets/new/)",
             "createdOn": 1641239616644,
             "createdBy": "admin",
