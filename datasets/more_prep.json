@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641846423402
+    "lastModifiedOn": 1641846449581
   },
   "creationTag": {
     "versionNumber": 0,
@@ -320,6 +320,23 @@
         "meta": {
           "name": "Value in range",
           "label": "Maximum_Credit_Score"
+        },
+        "computeOnBuildMode": "PARTITION"
+      },
+      {
+        "metricId": "col_stats:MIN:fico",
+        "minimum": 300.0,
+        "maximum": 0.0,
+        "softMinimum": 0.0,
+        "softMaximum": 0.0,
+        "minimumEnabled": true,
+        "maximumEnabled": false,
+        "softMinimumEnabled": false,
+        "softMaximumEnabled": false,
+        "type": "numericRange",
+        "meta": {
+          "name": "Value in range",
+          "label": "Minimum_Credit_Score"
         },
         "computeOnBuildMode": "PARTITION"
       }
