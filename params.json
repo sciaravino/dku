@@ -212,11 +212,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641412563553
+    "lastModifiedOn": 1641842882708
   },
   "creationTag": {
     "versionNumber": 0,
@@ -225,7 +225,7 @@
     },
     "lastModifiedOn": 1641239616643
   },
-  "description": "Lending Club project to predict applicant default",
+  "description": "Lending Club project to predict applicant default to assess credit risk",
   "shortDesc": "The project *LEND* was created by Administrator on Jan 03rd 2022",
   "tags": [],
   "customFields": {},
