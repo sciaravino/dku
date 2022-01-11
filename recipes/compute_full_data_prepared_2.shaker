@@ -81,7 +81,7 @@
       "disabled": false,
       "type": "CreateColumnWithGREL",
       "params": {
-        "expression": "(fico_range_low + fico_range_high)/2\n",
+        "expression": "round((fico_range_low + fico_range_high)/2)",
         "column": "fico"
       },
       "alwaysShowComment": false
