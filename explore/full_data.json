@@ -5,7 +5,36 @@
     "columnsSelection": {
       "mode": "ALL"
     },
-    "columnWidthsByName": {},
+    "columnWidthsByName": {
+      "id": 100,
+      "emp_title": 204,
+      "emp_length": 120,
+      "home_ownership": 120,
+      "annual_inc": 120,
+      "verification_status": 183,
+      "addr_state": 100,
+      "mort_acc": 100,
+      "dti": 100,
+      "delinq_2yrs": 100,
+      "earliest_cr_line": 128,
+      "fico_range_low": 120,
+      "fico_range_high": 128,
+      "inq_last_6mths": 120,
+      "mths_since_last_delinq": 180,
+      "open_acc": 100,
+      "pub_rec": 100,
+      "acc_now_delinq": 120,
+      "all_util": 100,
+      "inq_last_12m": 105,
+      "chargeoff_within_12_mths": 195,
+      "num_accts_ever_120_pd": 173,
+      "loan_amnt": 100,
+      "term": 100,
+      "int_rate": 100,
+      "purpose": 141,
+      "title": 232,
+      "Default": 100
+    },
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
@@ -58,7 +87,9 @@
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
