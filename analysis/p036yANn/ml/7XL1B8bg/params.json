@@ -2689,7 +2689,7 @@
       "nContainers": 4
     },
     "metrics": {
-      "evaluationMetric": "ROC_AUC",
+      "evaluationMetric": "RECALL",
       "customEvaluationMetricGIB": true,
       "customEvaluationMetricNeedsProba": false,
       "thresholdOptimizationMetric": "F1",
