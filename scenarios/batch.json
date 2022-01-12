@@ -5,18 +5,18 @@
   "name": "batch",
   "active": false,
   "creationTag": {
-    "versionNumber": 14,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1642005635119
-  },
-  "versionTag": {
     "versionNumber": 15,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1642019594282
+  },
+  "versionTag": {
+    "versionNumber": 16,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1642019667289
   },
   "checklists": {
     "checklists": []
@@ -75,9 +75,28 @@
   "params": {
     "steps": [
       {
+        "id": "check_false",
+        "type": "check_dataset",
+        "name": "Data Quality Check",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "checks": [],
+          "warningsAsErrors": false,
+          "proceedOnFailure": false
+        }
+      },
+      {
         "id": "build_0_true_d_scoring_prepared",
         "type": "build_flowitem",
-        "name": "Step #1",
+        "name": "Predictions",
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
@@ -97,25 +116,6 @@
           ],
           "jobType": "RECURSIVE_BUILD",
           "refreshHiveMetastore": true,
-          "proceedOnFailure": false
-        }
-      },
-      {
-        "id": "check_false",
-        "type": "check_dataset",
-        "name": "Data Quality Check",
-        "runConditionType": "RUN_IF_STATUS_MATCH",
-        "runConditionStatuses": [
-          "SUCCESS",
-          "WARNING"
-        ],
-        "runConditionExpression": "",
-        "resetScenarioStatus": false,
-        "delayBetweenRetries": 10,
-        "maxRetriesOnFail": 0,
-        "params": {
-          "checks": [],
-          "warningsAsErrors": false,
           "proceedOnFailure": false
         }
       },
