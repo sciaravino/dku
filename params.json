@@ -212,11 +212,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1641842882708
+    "lastModifiedOn": 1642012535098
   },
   "creationTag": {
     "versionNumber": 0,
@@ -225,7 +225,7 @@
     },
     "lastModifiedOn": 1641239616643
   },
-  "description": "Lending Club project to predict applicant default to assess credit risk",
+  "description": "Lending Club project to predict applicant default to assess credit risk\n\n\nBusiness Problem/Use Cases\n - Improve modeling process around loan origination\n      - Data ingestion, wrangling, feature extraction, variable selection, etc\n - Assess Credit Risk of loans\n      - Who to approve/deny\n - Seek efficient deployment process api/batch export\n      - Integration with applications for real time or data warehouse batch\n - Introduce interpretation of models\n      - Model explainability\n",
   "shortDesc": "The project *LEND* was created by Administrator on Jan 03rd 2022",
   "tags": [],
   "customFields": {},
