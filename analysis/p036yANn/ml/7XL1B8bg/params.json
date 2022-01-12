@@ -84,7 +84,7 @@
         "missing_impute_with": "MEAN",
         "impute_constant_value": 0.0,
         "keep_regular": false,
-        "rescaling": "AVGSTD",
+        "rescaling": "MINMAX",
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
@@ -92,7 +92,7 @@
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
-          "userModified": false,
+          "userModified": true,
           "autoModifiedByDSS": false,
           "recordedMeaning": "DoubleMeaning"
         },
@@ -130,7 +130,7 @@
         "missing_impute_with": "MEAN",
         "impute_constant_value": 0.0,
         "keep_regular": false,
-        "rescaling": "AVGSTD",
+        "rescaling": "NONE",
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
@@ -138,7 +138,7 @@
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
-          "userModified": false,
+          "userModified": true,
           "autoModifiedByDSS": false,
           "recordedMeaning": "LongMeaning"
         },
@@ -234,7 +234,7 @@
         "missing_impute_with": "MEAN",
         "impute_constant_value": 0.0,
         "keep_regular": false,
-        "rescaling": "AVGSTD",
+        "rescaling": "MINMAX",
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
@@ -242,7 +242,7 @@
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
-          "userModified": false,
+          "userModified": true,
           "autoModifiedByDSS": false,
           "recordedMeaning": "DoubleMeaning"
         },
@@ -361,7 +361,7 @@
         "missing_impute_with": "MEAN",
         "impute_constant_value": 0.0,
         "keep_regular": false,
-        "rescaling": "AVGSTD",
+        "rescaling": "MINMAX",
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
@@ -369,7 +369,7 @@
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
-          "userModified": false,
+          "userModified": true,
           "autoModifiedByDSS": false,
           "recordedMeaning": "LongMeaning"
         },
@@ -497,7 +497,7 @@
         "missing_impute_with": "MEAN",
         "impute_constant_value": 0.0,
         "keep_regular": false,
-        "rescaling": "AVGSTD",
+        "rescaling": "MINMAX",
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
@@ -505,7 +505,7 @@
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
-          "userModified": false,
+          "userModified": true,
           "autoModifiedByDSS": false,
           "recordedMeaning": "DoubleMeaning"
         },
@@ -667,7 +667,7 @@
         "missing_impute_with": "MEAN",
         "impute_constant_value": 0.0,
         "keep_regular": false,
-        "rescaling": "AVGSTD",
+        "rescaling": "MINMAX",
         "quantile_bin_nb_bins": 4,
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
@@ -675,7 +675,7 @@
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
-          "userModified": false,
+          "userModified": true,
           "autoModifiedByDSS": false,
           "recordedMeaning": "LongMeaning"
         },
