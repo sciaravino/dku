@@ -212,11 +212,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 13,
+    "versionNumber": 14,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1642012535098
+    "lastModifiedOn": 1642013250985
   },
   "creationTag": {
     "versionNumber": 0,
@@ -257,7 +257,7 @@
             "stateChangedOn": 0
           },
           {
-            "done": false,
+            "done": true,
             "text": "Organize your work by replacing this with a real todo",
             "createdOn": 1641239616644,
             "createdBy": "admin",
