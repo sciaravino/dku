@@ -5,18 +5,18 @@
   "name": "batch",
   "active": false,
   "creationTag": {
-    "versionNumber": 9,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1642005515211
-  },
-  "versionTag": {
     "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1642005517895
+  },
+  "versionTag": {
+    "versionNumber": 11,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1642005537370
   },
   "checklists": {
     "checklists": []
@@ -68,7 +68,7 @@
       "id": "7R7RFmyL",
       "name": "Notification",
       "runConditionEnabled": true,
-      "runCondition": "outcome !\u003d \u0027SUCCESS\u0027",
+      "runCondition": "",
       "phase": "END"
     }
   ],
