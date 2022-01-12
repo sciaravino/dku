@@ -2696,7 +2696,7 @@
       "costMatrixWeights": {
         "tpGain": 1.0,
         "tnGain": 0.0,
-        "fpGain": -0.31,
+        "fpGain": -0.3,
         "fnGain": 0.0
       },
       "liftPoint": 0.4
