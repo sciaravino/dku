@@ -1559,7 +1559,7 @@
       "algorithm": "auto",
       "p": 2,
       "leaf_size": 30,
-      "enabled": false
+      "enabled": true
     },
     "logistic_regression": {
       "multi_class": "ovr",
@@ -1699,7 +1699,7 @@
       "coef0": 0.0,
       "tol": 0.001,
       "max_iter": -1,
-      "enabled": false
+      "enabled": true
     },
     "svm_regression": {
       "C": {
@@ -2325,7 +2325,7 @@
       "seed": 1337,
       "enable_early_stopping": true,
       "early_stopping_rounds": 4,
-      "enabled": false
+      "enabled": true
     },
     "deep_learning_sparkling": {
       "enabled": false,
