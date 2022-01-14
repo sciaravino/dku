@@ -2728,7 +2728,7 @@
     "ssdTrainingRatio": 0.8,
     "ssdSeed": 1337,
     "testOnLargerValues": true,
-    "kfold": true,
+    "kfold": false,
     "nFolds": 5,
     "instanceIdRefresher": 0,
     "subSamplingSeed": 1337
